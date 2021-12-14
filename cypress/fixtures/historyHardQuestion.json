@@ -1,0 +1,493 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "With which Greek philosopher would you associate the phrase, &quot;I know that I know nothing&quot;?",
+      "correct_answer": "Socrates",
+      "incorrect_answers": ["Aristotle", "Plato", "Pythagoras"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "When did the French Revolution begin?",
+      "correct_answer": "1789",
+      "incorrect_answers": ["1823", "1756", "1799"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Pianist Fr&eacute;d&eacute;ric Chopin was a composer of which musical era?",
+      "correct_answer": "Romantic",
+      "incorrect_answers": ["Classic", "Baroque", "Renaissance"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Which naval battle was considered the turning point of the Pacific Ocean Theater during World War 2?",
+      "correct_answer": "Battle of Midway",
+      "incorrect_answers": [
+        "Attack on Truk Island",
+        "Attack on Pearl Harbor",
+        "Battle of the Coral Sea"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "In the year 1900, what were the most popular first names given to boy and girl babies born in the United States?",
+      "correct_answer": "John and Mary",
+      "incorrect_answers": [
+        "Joseph and Catherine",
+        "William and Elizabeth",
+        "George and Anne"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Spain was formed in 1469 with the marriage of Isabella I of Castile and Ferdinand II of what other Iberian kingdom?",
+      "correct_answer": "Aragon",
+      "incorrect_answers": ["Galicia", "Le&oacute;n", "Navarre"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "What was the name of the spy ring that helped the United States win the Revolutionary War?",
+      "correct_answer": "Culper Ring",
+      "incorrect_answers": [
+        "New York Spy Ring",
+        "Washington&#039;s Spies",
+        "Unnamed"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "When did Spanish Peninsular War start?",
+      "correct_answer": "1808",
+      "incorrect_answers": ["1806", "1810", "1809"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "What age was King Henry V when he died?",
+      "correct_answer": "35",
+      "incorrect_answers": ["62", "87", "73"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "On which day did ARPANET suffer a 4 hour long network crash?",
+      "correct_answer": "October 27, 1980",
+      "incorrect_answers": [
+        "November 21, 1969",
+        "October 29, 1969",
+        "December 9, 1991"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "What did the first vending machines in the early 1880&#039;s dispense?",
+      "correct_answer": "Post cards",
+      "incorrect_answers": ["Alcohol", "Cigarettes", "Sodas "]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "During the Wars of the Roses (1455 - 1487) which Englishman was dubbed &quot;the Kingmaker&quot;?",
+      "correct_answer": "Richard Neville",
+      "incorrect_answers": ["Richard III", "Henry V", "Thomas Warwick"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "When was Adolf Hitler appointed as Chancellor of Germany?",
+      "correct_answer": "January 30, 1933",
+      "incorrect_answers": [
+        "September 1, 1939",
+        "February 27, 1933",
+        "October 6, 1939"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Bohdan Khmelnytsky was which of the following?",
+      "correct_answer": "Leader of the Ukrainian Cossacks",
+      "incorrect_answers": [
+        "General Secretary of the Communist Party of the USSR",
+        "Prince of Wallachia",
+        "Grand Prince of Novgorod"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "How many sonatas did Ludwig van Beethoven write?",
+      "correct_answer": "32",
+      "incorrect_answers": ["50", "31", "21"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "During the Roman Triumvirate of 42 BCE, what region of the Roman Republic was given to Lepidus?",
+      "correct_answer": "Hispania ",
+      "incorrect_answers": ["Italia", "Gallia", "Asia"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "The Second Boer War in 1899 was fought where?",
+      "correct_answer": "South Africa",
+      "incorrect_answers": ["Argentina", "Nepal", "Bulgaria"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Who invented the &quot;Flying Shuttle&quot; in 1738; one of the key developments in the industrialization of weaving?",
+      "correct_answer": "John Kay",
+      "incorrect_answers": [
+        "James Hargreaves",
+        "Richard Arkwright",
+        "John Deere"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "What year was the United States Declaration of Independence signed?",
+      "correct_answer": "1776",
+      "incorrect_answers": ["1775", "1774", "1777"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "What was Napoleon Bonaparte&#039;s name before he changed it?",
+      "correct_answer": "Napoleone di Buonaparte",
+      "incorrect_answers": [
+        "Naapolion van Bonijpaart",
+        "Napole&atilde;o do Boaparte",
+        "Napoleona de Buenoparte"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "The Hagia Sophia was commissioned by which emperor of the Byzantine Empire?",
+      "correct_answer": "Justinian I",
+      "incorrect_answers": [
+        "Constantine IV",
+        "Arcadius",
+        "Theodosius the Great"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "During the Spanish Civil War (1936), Francisco Franco fought for which political faction?",
+      "correct_answer": "Nationalist Spain",
+      "incorrect_answers": ["Republican Spain", "Popular Front", "Papal State"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "When was the city of Rome, Italy founded?",
+      "correct_answer": "753 BCE",
+      "incorrect_answers": ["902 BCE", "524 BCE", "697 BCE"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "How many women joined the United States Armed Services during World War II?",
+      "correct_answer": "350,000",
+      "incorrect_answers": ["225,000", "100,000", "500,000"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "What was the code name for the Allied invasion of Southern France on August 15th, 1944?",
+      "correct_answer": "Operation Dragoon",
+      "incorrect_answers": [
+        "Operation Overlord",
+        "Operation Market Garden",
+        "Operation Torch"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "How long did the Warsaw Uprising during World War II last?",
+      "correct_answer": "63 Days",
+      "incorrect_answers": ["20 Days", "55 Days", "224 Days"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "What was the aim of the &quot;Umbrella Revolution&quot; in Hong Kong in 2014?",
+      "correct_answer": "Genuine universal suffrage",
+      "incorrect_answers": [
+        "Gaining Independence",
+        "Go back under British Rule",
+        "Lower taxes"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "What was the original name of New York City?",
+      "correct_answer": "New Amsterdam",
+      "incorrect_answers": ["New London", "New Paris", "New Rome"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "What was the name of the German offensive operation in October 1941 to take Moscow before winter?",
+      "correct_answer": "Operation Typhoon",
+      "incorrect_answers": [
+        "Operation Sunflower",
+        "Operation Barbarossa",
+        "Case Blue"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "When was the &quot;Siege of Leningrad&quot; lifted during World War II?",
+      "correct_answer": "January 1944",
+      "incorrect_answers": ["September 1943", "November 1943", "March 1944"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "The main objective of the German operation &quot;Case Blue&quot; during World War II was originally to capture what?",
+      "correct_answer": "Caucasus",
+      "incorrect_answers": ["Stalingrad", "Crimea", "Voronezh"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Which of the following was not one of Joseph Stalin&#039;s ten blows during World War II?",
+      "correct_answer": "Vistula-Oder Offensive",
+      "incorrect_answers": [
+        "Crimean Offensive",
+        "Leningrad-Novgorod Offensive",
+        "Operation Bagration"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "What was the last colony the UK ceded marking the end of the British Empire?",
+      "correct_answer": "Hong Kong",
+      "incorrect_answers": ["India", "Australia", "Ireland"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "In addition to his career as an astrologer and &quot;prophet&quot;, Nostradamus published a 1555 treatise that included a section on what?",
+      "correct_answer": "Making jams and jellies",
+      "incorrect_answers": [
+        "Teaching parrots to talk",
+        "Cheating at card games",
+        "Digging graves"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Before the American colonies switched to the Gregorian calendar in 1752, on what date did their new year start?",
+      "correct_answer": "March 25th",
+      "incorrect_answers": ["June 1st", "September 25th", "December 1st"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Toussaint Louverture led a successful slave revolt in which country?",
+      "correct_answer": "Haiti",
+      "incorrect_answers": ["France", "Cuba", "United States"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Which King of England was faced with the Peasants&#039; Revolt in 1381?",
+      "correct_answer": "Richard II",
+      "incorrect_answers": ["Edward III", "Edward II", "Henry IV"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Which English king was married to Eleanor of Aquitaine?",
+      "correct_answer": "Henry II",
+      "incorrect_answers": ["Richard I", "Henry I", "Henry V"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Which countries participated in the Lobster War?",
+      "correct_answer": "France and Brazil",
+      "incorrect_answers": [
+        "Canada and Norway",
+        "Australia and New Zealand",
+        "United States and England"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Who assassinated President James A. Garfield?",
+      "correct_answer": "Charles Guiteau",
+      "incorrect_answers": [
+        "Sirhan Sirhan",
+        "Leon Czolgosz",
+        "John Wilkes Booth"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "The pantheon in Rome was used to worship what god?",
+      "correct_answer": "Any god they wanted",
+      "incorrect_answers": ["Athena", "Zeus", "Both Athena and Zeus"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Which U.S. president was said to have been too honest to lie to his father about chopping down a cherry tree?",
+      "correct_answer": "George Washington",
+      "incorrect_answers": [
+        "Abraham Lincoln",
+        "Thomas Jefferson",
+        "James Monroe"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Which of the following Physicists aided Nazi Germany in their production of a nuclear weapon?",
+      "correct_answer": "Werner Heisenberg",
+      "incorrect_answers": ["John von Neumann", "Albert Einstein", "Max Planck"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "After the 1516 Battle of Marj Dabiq, the Ottoman Empire took control of Jerusalem from which sultanate?",
+      "correct_answer": "Mamluk",
+      "incorrect_answers": ["Ayyubid", "Ummayyad", "Seljuq"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "The ontological argument for the proof of God&#039;s existence is first attributed to whom?",
+      "correct_answer": "Anselm of Canterbury",
+      "incorrect_answers": [
+        "Ren&eacute; Descartes",
+        "Immanuel Kant",
+        "Aristotle"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Which of the following physicists did NOT work on the Manhattan project?",
+      "correct_answer": "Murray Gell-Mann",
+      "incorrect_answers": [
+        "Richard Feynman",
+        "J. Robert Oppenheimer",
+        "John Von-Neumann"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Which is the hull NO. of the Fletcher class destroyer Fletcher?",
+      "correct_answer": "DD-445",
+      "incorrect_answers": ["DD-992", "DD-444", "DD-446"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Which of these theoretical phycisists first predicted the existence of antimatter?",
+      "correct_answer": "Paul Dirac",
+      "incorrect_answers": [
+        "Niels Bohr",
+        "Albert Einstein",
+        "Werner Heisenberg"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Which of these positions did the astronomer and physicist Isaac Newton not hold?",
+      "correct_answer": "Surveyor to the City of London",
+      "incorrect_answers": [
+        "Professor of Mathematics",
+        "Warden of the Royal Mint",
+        "Member of Parliament"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Who is the creator of the soft drink, Dr. Pepper?",
+      "correct_answer": "Charles Alderton",
+      "incorrect_answers": [
+        "James Wellington",
+        "Johnson Hinsin",
+        "Boris Heviltik"
+      ]
+    }
+  ]
+}
