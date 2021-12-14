@@ -1,0 +1,110 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "With which Greek philosopher would you associate the phrase, &quot;I know that I know nothing&quot;?",
+      "correct_answer": "Socrates",
+      "incorrect_answers": ["Aristotle", "Plato", "Pythagoras"]
+    },
+    {
+      "id": 2,
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "When did the French Revolution begin?",
+      "correct_answer": "1789",
+      "incorrect_answers": ["1823", "1756", "1799"]
+    },
+    {
+      "id": 3,
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Pianist Fr&eacute;d&eacute;ric Chopin was a composer of which musical era?",
+      "correct_answer": "Romantic",
+      "incorrect_answers": ["Classic", "Baroque", "Renaissance"]
+    },
+    {
+      "id": 4,
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Which naval battle was considered the turning point of the Pacific Ocean Theater during World War 2?",
+      "correct_answer": "Battle of Midway",
+      "incorrect_answers": [
+        "Attack on Truk Island",
+        "Attack on Pearl Harbor",
+        "Battle of the Coral Sea"
+      ]
+    },
+    {
+      "id": 5,
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "In the year 1900, what were the most popular first names given to boy and girl babies born in the United States?",
+      "correct_answer": "John and Mary",
+      "incorrect_answers": [
+        "Joseph and Catherine",
+        "William and Elizabeth",
+        "George and Anne"
+      ]
+    },
+    {
+      "id": 6,
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Spain was formed in 1469 with the marriage of Isabella I of Castile and Ferdinand II of what other Iberian kingdom?",
+      "correct_answer": "Aragon",
+      "incorrect_answers": ["Galicia", "Le&oacute;n", "Navarre"]
+    },
+    {
+      "id": 7,
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "What was the name of the spy ring that helped the United States win the Revolutionary War?",
+      "correct_answer": "Culper Ring",
+      "incorrect_answers": [
+        "New York Spy Ring",
+        "Washington&#039;s Spies",
+        "Unnamed"
+      ]
+    },
+    {
+      "id": 8,
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "When did Spanish Peninsular War start?",
+      "correct_answer": "1808",
+      "incorrect_answers": ["1806", "1810", "1809"]
+    },
+    {
+      "id": 9,
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "What age was King Henry V when he died?",
+      "correct_answer": "35",
+      "incorrect_answers": ["62", "87", "73"]
+    },
+    {
+      "id": 10,
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "On which day did ARPANET suffer a 4 hour long network crash?",
+      "correct_answer": "October 27, 1980",
+      "incorrect_answers": [
+        "November 21, 1969",
+        "October 29, 1969",
+        "December 9, 1991"
+      ]
+    }
+  ]
+}
