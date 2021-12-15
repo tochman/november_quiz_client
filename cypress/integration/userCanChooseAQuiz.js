@@ -4,7 +4,7 @@ describe('User can choose a quiz and difficulty', () => {
   })
 
   it.only('is expected to be able to choose a category', () => {
-    cy.get('select').select('History').should('have.value', 'history')
+    cy.get("[data-cy=quiz-selector]").should('have.text', 'category')
   })
   it('is expected to see a selector of difficulty', () => {
     cy.get('select').select(1).should('have.text', 'Easy')

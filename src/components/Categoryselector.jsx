@@ -12,7 +12,7 @@ const Quizselector = () => {
           setCategory(selectedCategory)
         }}
       >
-        <option value="">--please choose a category--</option>
+        <option value="choose-category">--please choose a category--</option>
         <option value="history">History</option>
         <option value="science">Science</option>
         <option value="art">Art</option>

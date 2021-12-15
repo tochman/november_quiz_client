@@ -6,11 +6,13 @@ import Difficultyselector from './components/Difficultyselector'
 const App = () => {
   return (
     <>
-      <div data-cy="question-array">
+      <div data-cy="quiz-selector">
         <Quizselector />
-        <Difficultyselector />
-        <button data-cy="start-button">Start Quiz</button>
       </div>
+      <div data-cy="quiz-difficulty">
+        <Difficultyselector />
+      </div>
+      <button data-cy="start-button">Start Quiz</button>
     </>
   )
 }
