@@ -5,7 +5,7 @@ const Quizselector = () => {
 
   return (
     <div>
-      <select
+      <select data-cy="category"
         value={category}
         onChange={(select) => {
           const selectedCategory = select.target.value

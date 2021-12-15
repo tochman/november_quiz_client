@@ -5,7 +5,7 @@ const Difficultyselector = () => {
 
   return (
     <div>
-      <select
+      <select data-cy="difficulty"
         value={difficulty}
         onChange={(select) => {
           const selectedDifficulty = select.target.value

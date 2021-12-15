@@ -3,11 +3,11 @@ describe('User can choose a quiz and difficulty', () => {
     cy.visit('/')
   })
 
-  it.only('is expected to be able to choose a category', () => {
-    cy.get("[data-cy=quiz-selector]").should('have.text', 'category')
+  it('Get Dropdown for Category',() => {
+    cy.get("[data-cy=category]").select('history').should('have.value','history').should('contain', "History")
   })
-  it('is expected to see a selector of difficulty', () => {
-    cy.get('select').select(1).should('have.text', 'Easy')
+  it('Get dropdown for Difficulty',() => {
+    cy.get("[data-cy=difficulty]").select('hard').should('have.value','hard').should('contain', "Hard")
   })
 })
 
