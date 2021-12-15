@@ -1,7 +1,6 @@
 {
-  "questions": [
+  "results": [
     {
-      "id": 1,
       "category": "History",
       "type": "multiple",
       "difficulty": "hard",
@@ -10,100 +9,95 @@
       "incorrect_answers": ["Aristotle", "Plato", "Pythagoras"]
     },
     {
-      "id": 2,
       "category": "History",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "When did the French Revolution begin?",
-      "correct_answer": "1789",
-      "incorrect_answers": ["1823", "1756", "1799"]
-    },
-    {
-      "id": 3,
-      "category": "History",
-      "type": "multiple",
-      "difficulty": "hard",
-      "question": "Pianist Fr&eacute;d&eacute;ric Chopin was a composer of which musical era?",
-      "correct_answer": "Romantic",
-      "incorrect_answers": ["Classic", "Baroque", "Renaissance"]
-    },
-    {
-      "id": 4,
-      "category": "History",
-      "type": "multiple",
-      "difficulty": "hard",
-      "question": "Which naval battle was considered the turning point of the Pacific Ocean Theater during World War 2?",
-      "correct_answer": "Battle of Midway",
+      "question": "When was the SS or Schutzstaffel established?",
+      "correct_answer": "April 4th, 1925",
       "incorrect_answers": [
-        "Attack on Truk Island",
-        "Attack on Pearl Harbor",
-        "Battle of the Coral Sea"
+        "September 1st, 1941",
+        "March 8th, 1935",
+        "February 21st, 1926"
       ]
     },
     {
-      "id": 5,
       "category": "History",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "In the year 1900, what were the most popular first names given to boy and girl babies born in the United States?",
-      "correct_answer": "John and Mary",
+      "question": "The Second Boer War in 1899 was fought where?",
+      "correct_answer": "South Africa",
+      "incorrect_answers": ["Argentina", "Nepal", "Bulgaria"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Who invented the &quot;Flying Shuttle&quot; in 1738; one of the key developments in the industrialization of weaving?",
+      "correct_answer": "John Kay",
       "incorrect_answers": [
-        "Joseph and Catherine",
-        "William and Elizabeth",
-        "George and Anne"
+        "James Hargreaves",
+        "Richard Arkwright",
+        "John Deere"
       ]
     },
     {
-      "id": 6,
       "category": "History",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "Spain was formed in 1469 with the marriage of Isabella I of Castile and Ferdinand II of what other Iberian kingdom?",
-      "correct_answer": "Aragon",
-      "incorrect_answers": ["Galicia", "Le&oacute;n", "Navarre"]
-    },
-    {
-      "id": 7,
-      "category": "History",
-      "type": "multiple",
-      "difficulty": "hard",
-      "question": "What was the name of the spy ring that helped the United States win the Revolutionary War?",
-      "correct_answer": "Culper Ring",
+      "question": "The Hagia Sophia was commissioned by which emperor of the Byzantine Empire?",
+      "correct_answer": "Justinian I",
       "incorrect_answers": [
-        "New York Spy Ring",
-        "Washington&#039;s Spies",
-        "Unnamed"
+        "Constantine IV",
+        "Arcadius",
+        "Theodosius the Great"
       ]
     },
     {
-      "id": 8,
       "category": "History",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "When did Spanish Peninsular War start?",
-      "correct_answer": "1808",
-      "incorrect_answers": ["1806", "1810", "1809"]
+      "question": "How many women joined the United States Armed Services during World War II?",
+      "correct_answer": "350,000",
+      "incorrect_answers": ["225,000", "100,000", "500,000"]
     },
     {
-      "id": 9,
       "category": "History",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "What age was King Henry V when he died?",
-      "correct_answer": "35",
-      "incorrect_answers": ["62", "87", "73"]
+      "question": "What was the original name of New York City?",
+      "correct_answer": "New Amsterdam",
+      "incorrect_answers": ["New London", "New Paris", "New Rome"]
     },
     {
-      "id": 10,
       "category": "History",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "On which day did ARPANET suffer a 4 hour long network crash?",
-      "correct_answer": "October 27, 1980",
+      "question": "What was the last colony the UK ceded marking the end of the British Empire?",
+      "correct_answer": "Hong Kong",
+      "incorrect_answers": ["India", "Australia", "Ireland"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Who was the first man to travel into outer space twice?",
+      "correct_answer": "Gus Grissom",
       "incorrect_answers": [
-        "November 21, 1969",
-        "October 29, 1969",
-        "December 9, 1991"
+        "Vladimir Komarov",
+        "Charles Conrad",
+        "Yuri Gagarin"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "The Bohemian Revolt (1618-1620) started after Protestants in Prague did what to their Catholic Lords Regents?",
+      "correct_answer": "Threw them out of a window",
+      "incorrect_answers": [
+        "Insulted their mothers",
+        "Locked them in stockades",
+        "Hung them."
       ]
     }
   ]

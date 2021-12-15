@@ -1,13 +1,13 @@
 describe('Get questions from API', () => {
   before(() => {
-    cy.intercept('GET', '**/api/questions', {
+    cy.intercept('POST', '**/api/questions', {
       fixture: './historyHardQuestions.json',
-    }).as('Questions.index')
+    }).as('Questions.create')
     cy.visit('/')
   })
-  it('is expected to make a network call with a status 200', () => {
-    cy.wait('@Questions.index').its('response.statusCode').should('eq', 200)
-  })
+  it("is expected to make a POST request", () => {
+    cy.wait("@Questions.create").its("request.method").should("eq", "POST");
+  });
 
   it('is expected to generate an array of 10 set of questions', () => {
     cy.get('[data-cy=question-array]').children().should('have.length', 10)

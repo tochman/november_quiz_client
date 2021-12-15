@@ -1,11 +1,11 @@
 import { api } from './network'
 
 const Questions = {
-  async quiz() {
+  async create() {
     const { data } = await api.post('/questions', {
-    quiz: { trivia_categories_name: trivia_categories_name }
+      questions: { category: category, difficulty: difficulty },
     })
-    return data.questions
+    return data
   },
 }
 
