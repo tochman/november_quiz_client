@@ -1,35 +1,30 @@
-import React, { useState, useEffect } from 'react'
-import Questions from './modules/Questions'
-import Quizselector from './components/Categoryselector'
-import Difficultyselector from './components/Difficultyselector'
+import React, { useState } from "react";
+import Questions from "./modules/Questions";
+import CategorySelector from "./components/Categoryselector";
+import DifficultySelector from "./components/Difficultyselector";
 
 const App = () => {
-  const [questions, setQuestions] = useState([])
+  const [questions, setQuestions] = useState([]);
+  const [category, setCategory] = useState();
+  const [difficulty, setDifficulty] = useState();
 
-  useEffect(() => {
-    Questions.index().then((data) => {
-      debugger
-      setQuestions(data.results)
-    })
-  }, [])
-
-  const qList = questions.map((question) => {
-    return <li key={question.category}>{question.question}</li>
-  })
+  const startQuiz = async () => {
+    const data = await Questions.index({
+      category: category,
+      difficulty: difficulty,
+    });
+    setQuestions(data.results);
+  };
 
   return (
     <>
-      <div data-cy="quiz-selector">
-        <Quizselector />
-      </div>
-      <div data-cy="quiz-difficulty">
-        <Difficultyselector />
-      </div>
-
-      <button data-cy="start-button">Start Quiz</button>
-      <div data-cy="question-list">{qList}</div>
+      <CategorySelector onCategoryChange={setCategory} />
+      <DifficultySelector onDifficultyChange={setDifficulty} />
+      <button data-cy="start-button" onClick={startQuiz}>
+        Start Quiz
+      </button>
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;

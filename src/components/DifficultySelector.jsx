@@ -1,12 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 
-const DifficultySelector = ({ onDifficultyChange }) => {
+const DifficultySelector = () => {
+  const [difficulty, setDifficulty] = useState("");
+
   return (
-    <div>
+    <div data-cy="quiz-difficulty">
       <select
         data-cy="difficulty"
+        value={difficulty}
         onChange={(select) => {
-          onDifficultyChange(select.target.value);
+          const selectedDifficulty = select.target.value;
+          setDifficulty(selectedDifficulty);
         }}
       >
         <option value="">--please choose a difficulty--</option>

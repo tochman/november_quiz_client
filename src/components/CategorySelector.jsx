@@ -1,12 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 
-const CategorySelector = ({ onCategoryChange }) => {
+const CategorySelector = () => {
+  const [category, setCategory] = useState("");
+
   return (
     <div>
       <select
         data-cy="category"
+        value={category}
         onChange={(select) => {
-          onCategoryChange(select.target.value);
+          const selectedCategory = select.target.value;
+          setCategory(selectedCategory);
         }}
       >
         <option value="choose-category">--please choose a category--</option>

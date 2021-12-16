@@ -6,11 +6,11 @@ describe('User can see a questions', () => {
     cy.visit('/')
   })
 
-  it('make network call 200', () => {
+  it('is expected to return status code 200', () => {
     cy.wait('@getQuestions').its('response.statusCode').should('eq', 200)
   })
 
-  it('can get collection of questions', () => {
+  it('is expected to get collection of questions', () => {
     cy.get('[data-cy=question-list]').children().should('have.length', 10)
   })
 })
