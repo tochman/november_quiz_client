@@ -1,7 +1,7 @@
 describe('Get questions from API', () => {
   before(() => {
     cy.intercept('POST', '**/api/questions', {
-      fixture: './historyHardQuestions.json',
+      fixture: 'historyHardQuestions.json',
     }).as('Questions.create')
     cy.visit('/')
   })
