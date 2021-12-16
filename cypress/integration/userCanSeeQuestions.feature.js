@@ -1,6 +1,6 @@
-describe('Get questions', () => {
+describe('User can see a questions', () => {
   before(() => {
-    cy.intercept('GET', '**/api.php?amount=10&category=23&difficulty=hard&type=multiple', {
+    cy.intercept('GET', '**/api**', {
       fixture: 'historyHardQuestions',
     }).as('getQuestions')
     cy.visit('/')

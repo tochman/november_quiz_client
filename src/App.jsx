@@ -13,21 +13,19 @@ const App = () => {
     })
   }, [])
 
-const qList = questions.map((question) => {
-  return ( <li key={question.category}>{question.question}</li> 
-    )
-})
-
+  const qList = questions.map((question) => {
+    return <li key={question.category}>{question.question}</li>
+  })
 
   return (
     <>
       <div data-cy="quiz-selector">
         <Quizselector />
       </div>
-       <div data-cy="quiz-difficulty">
+      <div data-cy="quiz-difficulty">
         <Difficultyselector />
       </div>
-      
+
       <button data-cy="start-button">Start Quiz</button>
       <div data-cy="question-list">{qList}</div>
     </>
