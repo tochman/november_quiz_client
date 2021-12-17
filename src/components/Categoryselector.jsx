@@ -9,7 +9,9 @@ const CategorySelector = ({ onCategoryChange }) => {
           onCategoryChange(select.target.value);
         }}
       >
-        <option value="choose-category">--please choose a category--</option>
+        <option value="" selected disabled hidden>
+          --please choose a category--
+        </option>
         <option value="history">History</option>
         <option value="science">Science</option>
         <option value="art">Art</option>

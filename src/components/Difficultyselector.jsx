@@ -9,7 +9,9 @@ const DifficultySelector = ({ onDifficultyChange }) => {
           onDifficultyChange(select.target.value);
         }}
       >
-        <option value="">--please choose a difficulty--</option>
+        <option value="" selected disabled hidden>
+          --please choose a difficulty--
+        </option>
         <option value="easy">Easy</option>
         <option value="hard">Hard</option>
       </select>
