@@ -1,19 +1,17 @@
 import React, { useState } from "react";
+import { useSelector, useDispatch } from "react-redux";
 import Quizzes from "./modules/Quizzes";
 import CategorySelector from "./components/Categoryselector";
 import DifficultySelector from "./components/Difficultyselector";
 
 const App = () => {
-  const [quiz, setQuiz] = useState({});
+  const dispatch = useDispatch();
+  const { quiz } = useSelector((state) => state);
   const [category, setCategory] = useState();
   const [difficulty, setDifficulty] = useState();
 
   const createQuiz = async () => {
-    const data = await Quizzes.create({
-      category: category,
-      difficulty: difficulty,
-    });
-    setQuiz(data.quiz);
+    dispatch(Quizzes.create({ category: category, difficulty: difficulty }));
   };
 
   let questionList;
