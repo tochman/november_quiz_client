@@ -12,7 +12,7 @@ const App = () => {
     let question = quiz.questions[currentQuestion];
     questionUI =
       currentQuestion >= quiz.questions.length ? (
-        <h1 style={{color: 'white'}}>You are done!</h1>
+        <h1 style={{ color: "white" }}>You are done!</h1>
       ) : (
         <Question
           currentQuestion={currentQuestion}
