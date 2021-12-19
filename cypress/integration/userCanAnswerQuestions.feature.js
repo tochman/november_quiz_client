@@ -11,8 +11,8 @@ describe("providing answers", () => {
   });
 
   describe("by clicking the right answer", () => {
-    it("is expected to store the answer in state", () => {
-      cy.get("[data-cy=question-0-0]").click();
+    it("is expected to store the answer in state and show 'Submit Quiz' Button", () => {
+      cy.contains("July 1st, 1763").click();
       cy.window()
         .its("store")
         .invoke("getState")
@@ -25,6 +25,7 @@ describe("providing answers", () => {
             },
           ]);
         });
+      cy.get('[data-cy=submit-quiz]').should('be.visible')
     });
   });
 });

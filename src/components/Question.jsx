@@ -3,6 +3,7 @@ import { useDispatch } from "react-redux";
 
 const Question = ({ currentQuestion, question, incrementQuestion }) => {
   let answers = [...question.incorrect_answers, question.correct_answer];
+  answers = answers.concat(answers.splice(0, 1));
   const dispatch = useDispatch();
   const clickHandler = (selector) => {
     dispatch({

@@ -1,5 +1,3 @@
-import { bindActionCreators } from "redux";
-
 const rootReducer = (state, action) => {
   switch (action.type) {
     case "STORE_QUIZ":
