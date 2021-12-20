@@ -7,6 +7,8 @@ const rootReducer = (state, action) => {
       };
     case "SUBMIT_ANSWER":
       return { ...state, submissions: [...state.submissions, action.payload] };
+    case 'SET_RESULTS':
+      return {...state, results: action.payload}
     default:
       return state;
   }

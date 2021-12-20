@@ -41,12 +41,12 @@ describe("submitting the Quiz", () => {
         .its("store")
         .invoke("getState")
         .then((state) => {
-          console.table(state.results);
           expect(state.results).to.eql({
             totalAnswers: 2,
             correctAnswers: 1,
             wrongAnswers: 1,
-            percentCorrect: 50
+            percentCorrect: 0.5
+          
           });
         });
     });

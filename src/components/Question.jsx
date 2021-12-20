@@ -1,6 +1,6 @@
 import React from "react";
 import { useDispatch } from "react-redux";
-import { alphabet } from '../modules/alphabet'
+import { alphabet } from "../modules/alphabet";
 
 const Question = ({ currentQuestion, question, incrementQuestion }) => {
   let answers = [...question.incorrect_answers, question.correct_answer];
@@ -21,9 +21,9 @@ const Question = ({ currentQuestion, question, incrementQuestion }) => {
   const answersList = answers.map((answer, answerIndex) => {
     return (
       <li
+        onClick={(event) => clickHandler(event.target)}
         className="answer box"
         data-cy={`question-${currentQuestion}-${answerIndex}`}
-        onClick={(event) => clickHandler(event.target)}
         key={`question-${currentQuestion}-${answerIndex}`}
       >
         <p>
