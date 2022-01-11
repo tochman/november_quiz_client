@@ -7,24 +7,25 @@ const Question = ({ currentQuestion, question, incrementQuestion }) => {
   answers = answers.concat(answers.splice(0, 1));
   const dispatch = useDispatch();
 
-  const clickHandler = (selector) => {
+  const clickHandler = (answer) => {
     dispatch({
       type: "SUBMIT_ANSWER",
       payload: {
         index: currentQuestion,
-        submittedAnswer: selector.textContent,
+        submittedAnswer: answer,
         correctAnswer: question.correct_answer,
       },
     });
     incrementQuestion(currentQuestion + 1);
   };
   const answersList = answers.map((answer, answerIndex) => {
+    const identifier = `question-${currentQuestion}-${answerIndex}`
     return (
       <li
-        onClick={(event) => clickHandler(event.target)}
+        onClick={() => clickHandler(answer)}
         className="answer box"
-        data-cy={`question-${currentQuestion}-${answerIndex}`}
-        key={`question-${currentQuestion}-${answerIndex}`}
+        data-cy={identifier}
+        key={identifier}
       >
         <p>
           <span>{alphabet[answerIndex]}</span> {answer}

@@ -39,14 +39,14 @@ body:before {
 }
 .quiz-container h1 {
   text-align: center;
-  color: #cb2127;
+  color: #7e481c;
   margin-bottom: 10px;
 }
 .quiz-container .box {
   padding: 10px 15px;
 }
 .quiz-container .question {
-  background-color: #cb2127;
+  background-color: #7e481c;
   margin-bottom: 25px;
   font-size: 115%;
   padding-top: 20px;
@@ -62,10 +62,10 @@ body:before {
   height: 0;
   border-left: 15px solid transparent;
   border-right: 15px solid transparent;
-  border-top: 15px solid #cb2127;
+  border-top: 15px solid #7e481c;
 }
 .quiz-container .question span {
-  background-color: #cb2127;
+  background-color: #7e481c;
   color: white;
   display: block;
   float: left;
@@ -83,18 +83,18 @@ body:before {
 }
 .quiz-container .answers .answer {
   background-color: #fff;
-  color: #cb2127;
+  color: #7e481c;
   margin-bottom: 10px;
   position: relative;
 }
 .quiz-container .answers .answer:hover,
 .quiz-container .answers .answer.active {
   cursor: pointer;
-  color: #2ecc71;
+  color: #362312;
 }
 .quiz-container .answers .answer:hover span:not([class^="checkmark"]),
 .quiz-container .answers .answer.active span:not([class^="checkmark"]) {
-  background-color: #2ecc71;
+  background-color: #362312;
 }
 .quiz-container .answers .answer.active span.checkmark {
   background-color: #fff;
@@ -104,7 +104,7 @@ body:before {
   font-size: 120%;
 }
 .quiz-container .answers .answer span:not([class^="checkmark"]) {
-  background-color: #cb2127;
+  background-color: #7e481c;
   color: white;
   display: block;
   float: left;
@@ -117,7 +117,7 @@ body:before {
   width: 40px;
 }
 .quiz-container button {
-  background-color: #cb2127;
+  background-color: #7e481c;
   color: #fff;
   font-size: 110%;
   border: 0;
@@ -125,7 +125,7 @@ body:before {
   position: relative;
 }
 .quiz-container button:hover {
-  background-color: #2ecc71;
+  background-color: #362312;
   cursor: pointer;
 }
 .quiz-container button span {

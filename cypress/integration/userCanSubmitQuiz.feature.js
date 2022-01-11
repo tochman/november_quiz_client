@@ -36,7 +36,7 @@ describe("submitting the Quiz", () => {
       cy.get("[data-cy=submit-quiz]").click();
     });
 
-    it("is expected to store the Quiz results and display", () => {
+    it("is expected to store the Quiz results in state", () => {
       cy.window()
         .its("store")
         .invoke("getState")
