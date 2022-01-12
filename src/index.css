@@ -42,6 +42,12 @@ body:before {
   color: #7e481c;
   margin-bottom: 10px;
 }
+
+.quiz-container h2 {
+  text-align: center;
+  color: #7e481c;
+  margin-bottom: 8px;
+}
 .quiz-container .box {
   padding: 10px 15px;
 }

@@ -4,12 +4,14 @@ import CreateQuizForm from "./components/CreateQuizForm";
 import DisplayResults from "./components/DisplayResults";
 import Question from "./components/Question";
 import Quizzes from "./modules/Quizzes";
-
+import { loadStripe } from "@stripe/stripe-js";
+import { Elements } from "@stripe/react-stripe-js";
 
 const App = () => {
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const { quiz, submissions, results } = useSelector((state) => state);
   const dispatch = useDispatch();
+  const stripePromise = loadStripe("pk_test_XXXXX");
   let questionUI;
   if (quiz.questions) {
     let question = quiz.questions[currentQuestion];
@@ -34,7 +36,9 @@ const App = () => {
       ) : (
         <>
           {!quiz.questions ? (
-            <CreateQuizForm />
+            <Elements stripe={stripePromise}>
+              <CreateQuizForm />
+            </Elements>
           ) : (
             <div data-cy="quiz-list" className="quiz-container">
               {questionUI}
