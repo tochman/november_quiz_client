@@ -11,7 +11,7 @@ const App = () => {
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const { quiz, submissions, results } = useSelector((state) => state);
   const dispatch = useDispatch();
-  const stripePromise = loadStripe("pk_test_XXXXX");
+  const stripePromise = loadStripe("pk_test_QicERB8w3kyqaYW3hUUQylRH");
   let questionUI;
   if (quiz.questions) {
     let question = quiz.questions[currentQuestion];

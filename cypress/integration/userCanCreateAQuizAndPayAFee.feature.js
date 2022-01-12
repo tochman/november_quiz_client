@@ -4,7 +4,6 @@ describe("User can create a quiz by choosing category and difficulty and by payi
     cy.intercept("POST", "**/api/quizzes", {
       fixture: "apiResult.json",
     }).as("getQuizzes");
-    cy.intercept("POST", "https://r.stripe.com/0", { statusCode: 201 });
     cy.visit("/");
     cy.get("[data-cy=create-form]").should("be.visible");
     cy.get("[data-cy=category]").select("history", { force: true });
@@ -27,41 +26,18 @@ describe("User can create a quiz by choosing category and difficulty and by payi
 
   describe("filling in valid CC data", () => {
     before(() => {
+      cy.intercept("POST", "*r.stripe.com/0", { statusCode: 201 });
+      cy.intercept("POST", "*api/payments", { body: { paid: true }, statusCode: 201 });
       cy.get("[data-cy=payment-form]").within(() => {
-        cy.get("[data-cy=card-number]").within(() => {
-          cy.get('iframe[name^="__privateStripeFrame"]').then(($iframe) => {
-            const $body = $iframe.contents().find("body");
-            cy.wrap($body)
-              .find('input[name="cardnumber"]')
-              .type("4242424242424242", { delay: 2 });
-          });
-        });
-
-        // cy.fillInStripeElement('exp-date', '1223')
-
-        cy.get("[data-cy=exp-date]").within(() => {
-          cy.get('iframe[name^="__privateStripeFrame"]').then(($iframe) => {
-            const $body = $iframe.contents().find("body");
-            cy.wrap($body)
-              .find('input[name="exp-date"]')
-              .type("1223", { delay: 2 });
-          });
-        });
-
-        cy.get("[data-cy=cvc]").within(() => {
-          cy.get('iframe[name^="__privateStripeFrame"]').then(($iframe) => {
-            const $body = $iframe.contents().find("body");
-            cy.wrap($body)
-              .find('input[name="cvc"]')
-              .type("123", { delay: 2 });
-          });
-        });
-
-        cy.get('[data-cy=submit-payment]').click()
+        cy.get("[data-cy=email]").type("thomas@craft.com");
+        cy.fillInStripeElement('cardnumber', '4242424242424242')
+        cy.fillInStripeElement('exp-date', '1223')
+        cy.fillInStripeElement('cvc', '123')
+        cy.get("[data-cy=submit-payment]").click();
       });
     });
 
-    it("is expected to ...", () => {});
+    it.only("is expected to ...", () => {});
   });
 
   xit("is expected to make a POST request to the API", () => {
