@@ -4,7 +4,7 @@ const Quizzes = {
   create({ category, difficulty }) {
     return async (dispatch) => {
       const { data } = await api.post("/quizzes", {
-        params: {
+        quiz: {
           category: category,
           difficulty: difficulty,
         },
@@ -15,9 +15,9 @@ const Quizzes = {
   submit() {
     return async (dispatch, state) => {
       let totalAnswers = 0,
-      correctAnswers = 0,
-      wrongAnswers = 0,
-      percentCorrect;
+        correctAnswers = 0,
+        wrongAnswers = 0,
+        percentCorrect;
       let submissions = state().submissions;
 
       submissions.forEach((submission) => {
@@ -26,13 +26,16 @@ const Quizzes = {
           ? (correctAnswers += 1)
           : (wrongAnswers += 1);
       });
-      percentCorrect = parseFloat(correctAnswers / totalAnswers)  ;
-      dispatch({type: 'SET_RESULTS', payload: {
-        totalAnswers: totalAnswers,
-        correctAnswers: correctAnswers,
-        wrongAnswers: wrongAnswers,
-        percentCorrect: percentCorrect
-      }})
+      percentCorrect = parseFloat(correctAnswers / totalAnswers);
+      dispatch({
+        type: "SET_RESULTS",
+        payload: {
+          totalAnswers: totalAnswers,
+          correctAnswers: correctAnswers,
+          wrongAnswers: wrongAnswers,
+          percentCorrect: percentCorrect,
+        },
+      });
     };
   },
 };

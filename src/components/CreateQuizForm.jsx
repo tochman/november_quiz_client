@@ -31,22 +31,26 @@ const CreateQuizForm = () => {
     if (elements == null) {
       return;
     }
-    const element = elements.getElement(CardNumberElement)
-    const stripeResponse = await stripe.createToken(element)
+    const element = elements.getElement(CardNumberElement);
+    const stripeResponse = await stripe.createToken(element);
     // make a call to our own API and finalize the charge
-    const paymentStatus = await axios.post('http://localhost:3000/api/payments', {
-      stripeToken: stripeResponse.token.id,
-      currency: 'sek',
-      amount: 1000,
-      email: event.target.email.value
-    })
-    // if response contains {paid: true} then call 
+    const paymentStatus = await axios.post(
+      "http://localhost:3000/api/payments",
+      {
+        payment: {
+          stripeToken: stripeResponse.token.id,
+          currency: "sek",
+          amount: 1000,
+          email: event.target.email.value,
+        },
+      }
+    );
+    // if response contains {paid: true} then call
     if (paymentStatus.data.paid) {
       dispatch(Quizzes.create({ category: category, difficulty: difficulty }));
-
     } else {
       // if not, then tell the user that the payment if not done
-      debugger
+      debugger;
     }
   };
   return (
@@ -55,7 +59,7 @@ const CreateQuizForm = () => {
         <form data-cy="payment-form" onSubmit={formSubmitHandler}>
           <h2 data-cy="payment-message">Pay a small fee to proceed</h2>
           <div>
-            <input type="text" data-cy="email" name="email"  />
+            <input type="text" data-cy="email" name="email" />
           </div>
           <div data-cy="cardnumber">
             <CardNumberElement />
@@ -67,7 +71,11 @@ const CreateQuizForm = () => {
             <CardCvcElement />
           </div>
 
-          <button data-cy="submit-payment" type="submit" disabled={!stripe || !elements}>
+          <button
+            data-cy="submit-payment"
+            type="submit"
+            disabled={!stripe || !elements}
+          >
             Pay
           </button>
         </form>
